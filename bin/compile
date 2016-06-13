@@ -11,3 +11,4 @@ mkdir bin
 mkdir lib
 tar -C vendor -xvf avconv.tar.gz
 mv ./vendor/bin/avconv ./bin/avconv
+mv ./vendor/lib/libmp3lame.so.0 ./lib/libmp3lame.so.0
